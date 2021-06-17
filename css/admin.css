@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    margin: 0px auto;
+    width: 80%;
+    padding: 1%;
+
+}
+.menu{
+    border-bottom: 1px solid gray;
+}
+
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li a{
+    padding: 1%;
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+    
+}
+.menu ul li a:hover{
+    color:#c0392b;
+}
+.main{
+    background-color: #bdc3c7;
+    padding: 3% 0;
+}
+.column{
+    background-color: white;
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.header{
+    width: 100%;
+
+}
+.header tr th{   
+    padding-top: 5%; 
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+    text-align: left;
+    
+}
+.header tr td{
+    padding-top: 1%;
+    
+
+}
+.btn-primary{
+    width: 20%;
+    text-decoration: none;
+    background-color: #0984e3;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+
+}
+
+.btn-primary:hover{
+    background-color: #6c5ce7;
+}
+.btn-secondary{
+    width: 20%;
+    text-decoration: none;
+    background-color: #2ecc71;
+    font-weight: bold;
+    color:black;
+    padding: 1%;
+}
+.btn-secondary:hover{
+    background-color: #00b894;
+}
+.btn-dark{
+    width: 20%;
+    text-decoration: none;
+    background-color: #e17055;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+}
+.btn-dark:hover{
+    background-color: #d63031;
+}
+.add{
+    width: 30%;
+}
+.add tr td{
+    padding-bottom: 2%;
+}
+#input{
+    padding: 2%;
+}
+.h1{
+    padding-bottom: 6%;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.footer{
+    background-color: #d63031;
+    color:white;
+}
+.text-center{
+    text-align: center;
+    
+}
+.text-green{
+    color:green;
+}
+.delete-msg{
+    color: rgb(235, 81, 81);
+    font: bold;
+}
+.login{
+    border: 1px solid black ;
+    margin: 10% auto;
+    width: 20%;
+    padding: 4%;
+}
